@@ -1,0 +1,25 @@
+CLY is a Python module for simplifying the creation of interactive shells. Kind
+of like the builtin `cmd` module on steroids.
+
+It has the following features:
+
+  - An XML (honestly, it's better than you think) grammar format.
+
+  - Tab completion of all commands.
+
+  - Contextual help.
+
+  - Extensible grammar - you can define your own commands with full dynamic
+    completion, contextual help, and so on.
+
+  - Simple. Grammars are constructed from objects using a convenient
+    ''function-like'' syntax.
+
+  - Flexible command grouping and ordering.
+
+  - Grammar parser, including completion and help enumeration, can be used
+    independently of the readline-based shell. This allows CLY's parser to
+    be used in other environments (think "web-based shell" ;))
+
+  - Lots of other cool stuff.
+

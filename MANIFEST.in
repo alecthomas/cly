@@ -1,0 +1,3 @@
+include README
+include cly/*.py
+include cly/*.c

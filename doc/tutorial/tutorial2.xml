@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<grammar>
+  <node name="quit" help="Quit">
+    <action callback="do_quit()" help="Quit"/>
+  </node>
+</grammar>

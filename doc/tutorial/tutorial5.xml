@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<grammar>
+  <node name="quit" help="Quit">
+    <action callback="do_quit()" help="Quit"/>
+  </node>
+  <node name="cat" help="Concatenate files">
+    <file name="files" help="File to concatenate" traversals="0">
+      <action callback="do_cat(files)" help="Concatenate files"/>
+      <alias target=".."/>
+    </file>
+  </node>
+</grammar>
+
